@@ -1,0 +1,8 @@
+3|superintendent|관리자
+1|electric|전기의, 전기를 생산하는
+2|equipment|장비, 용품
+1|trim|다듬다
+3|proclaim|공언하다, 선포하다
+2|lone|혼자인, 단독의, 외
+1|apple|사과
+2|stroll|거닐다,산책하다

@@ -58,7 +58,7 @@ public class WordCRUD implements ICRUD{
 
 
     public void listAll() {
-        System.out.println("\n--------------------------------");
+        System.out.println("--------------------------------");
         for(int i=0; i<list.size();i++) {
             System.out.print((i+1)+ " ");
             System.out.println(list.get(i).toString());
@@ -70,7 +70,7 @@ public class WordCRUD implements ICRUD{
 
         ArrayList<Integer> idlist = new ArrayList<>();
         int j=0;
-        System.out.println("\n--------------------------------");
+        System.out.println("--------------------------------");
         for(int i=0; i<list.size();i++) {
             String word = list.get(i).getWord();
             if(!word.contains(keyword)) continue;
@@ -79,13 +79,13 @@ public class WordCRUD implements ICRUD{
             idlist.add(i);
             j++;
         }
-        System.out.println("--------------------------------\n");
+        System.out.println("--------------------------------");
         return idlist;
     }
 
     public void listAll(int level) {
         int j=0;
-        System.out.println("\n--------------------------------");
+        System.out.println("--------------------------------");
         for(int i=0; i<list.size();i++) {
             int ilevel = list.get(i).getLevel();
             if(ilevel !=level) continue;
@@ -108,7 +108,7 @@ public class WordCRUD implements ICRUD{
         String meaning=s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
-        System.out.println("\n단어가 수정이 성공적으로 되었습니다!! " );
+        System.out.println("\n단어 수정이 성공적으로 되었습니다!! " );
     }
 
     public void deleteItem() {
@@ -125,7 +125,7 @@ public class WordCRUD implements ICRUD{
             list.remove((int)idlist.get(id-1));
             System.out.println("선택한 단어 삭제 완료!!!");
         }else
-            System.out.println("취소되었습니다. ");
+            System.out.println("취소되었습니다. \n");
     }
 
     public void loadFile() {
@@ -161,7 +161,7 @@ public class WordCRUD implements ICRUD{
                 pr.write(one.toFileString()+"\n");
             }
             pr.close();
-            System.out.println("\n모든 단어 파일 저장 완료!!!");
+            System.out.println("\n모든 단어 파일 저장 완료!!!\n");
 
         } catch (IOException e) {
             // TODO Auto-generated catch block

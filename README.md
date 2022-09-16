@@ -33,6 +33,10 @@
 
   <img width="160" alt="파일 저장" src="https://user-images.githubusercontent.com/103119924/190571240-28ebb13e-9a8c-4bba-aa5a-e674924125bb.png">
   
+* **Dictionary.txt** 
+
+  <img width="100" alt="Dictionary" src="https://user-images.githubusercontent.com/103119924/190572826-de9168fa-ba19-4c5f-a560-d44772f4c7f7.png">
+  
 * **파일 저장 후 모드 단어 보기**
   
     <img width="230" alt="파일 저장 후 모든 단어 보기" src="https://user-images.githubusercontent.com/103119924/190570046-f801108b-90b7-4c62-a798-1674801d3f13.png">

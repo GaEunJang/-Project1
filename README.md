@@ -35,7 +35,7 @@
   
 * **Dictionary.txt** 
 
-  <img width="100" alt="Dictionary" src="https://user-images.githubusercontent.com/103119924/190572826-de9168fa-ba19-4c5f-a560-d44772f4c7f7.png">
+  <img width="200" alt="Dictionary" src="https://user-images.githubusercontent.com/103119924/190572826-de9168fa-ba19-4c5f-a560-d44772f4c7f7.png">
   
 * **파일 저장 후 모드 단어 보기**
   
